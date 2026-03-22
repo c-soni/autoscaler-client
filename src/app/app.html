@@ -1,2 +1,2 @@
 <router-outlet></router-outlet>
-<app-logger-view #loggerView></app-logger-view>
+<input #fileInput type="file" accept="*.jpg,*.png" multiple (change)="selectFiles($event)" />
